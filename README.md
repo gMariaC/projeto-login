@@ -98,6 +98,49 @@ Isto foi mostrado no arquivo README e utilizado, por exemplo, na classe "contain
 }
 ```
 
+As propriedades "justify-content" e "align-items" do CSS3 foram usadas para controlar o alinhamento dos itens em um container flex como segue:
+
+```
+.container{
+    justify-content: center;
+    align-items: center;
+}
+```
+
+Veja a seguir o que foi feito para alinhar o texto que estava dentro de ".h3", foi usada a propriedade "text-align":
+
+```
+h3{
+    text-align: center;
+}
+```
+
+
+A definição da fonte principal da página, "body", foi definida com "font-family" como se vê a seguir:
+
+```
+body{
+    font-family: Verdana;
+}
+```
+
+Foi adicionado também uma caixa para inserir textos, com bordas arredondadas e sombra com as seguintes propriedades:
+
+```
+.form{
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+}
+```
+
+A cor do texto foi definida com a propriedade "color" como mostra a seguir:
+
+```
+.form{
+    color: rgb(20, 90, 20);
+}
+```
+
 ## Tecnologias
 
 * HTML
