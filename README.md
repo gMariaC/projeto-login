@@ -16,10 +16,11 @@ O projeto consiste na composição de uma página de login para que um úsuario 
 
 ![Resultado final do projeto](img/final-results.png)
 
-#### Login - Entrar
+### Login - Entrar
 
 * div - Serve para agrupar blocos de elementos e aplicar estilos CSS a eles. É uma tag muito utilizada para estruturar o layout de uma página da web.
 * form - Serve para criar formulários e definir a forma como eles se comportam.
+* h3 - Utilizado para criar subtítulos de nível inferior.
 * input - Serve para criar campos de entrada de dados interativos, que permitem o usuário insira textos, números, datas, cores, entre outros.
 * label - Especifica o rótulo de um input em um formulário, e é importante para a experiência de um usuário.
 * br - Cria uma quebra de linha em um texto.
@@ -41,7 +42,61 @@ O projeto foi estilizado, utilizando CSS3. Foi criado um arquivo chamado login.c
 * Estilo de cores - A cor de fundo utilizada no projeto foi definida como segue:
 
 ```
+body{
+    background-color: rgb(95, 145, 31);
+}
+```
 
+O elemento citado acima foi utilizado nas seguintes classes no CSS3:
+
+* .form
+* .body - Serve para representar tudo o que é exibido na página.
+
+O comportamento do elemento "body" e "container" na págfina foi definido como segue:
+
+```
+.container{
+    display: flex;
+}
+```
+```
+.body{
+    display: flex;
+}
+```
+
+A definição da distância entre o conteúdo de um elemento e suas bordas foi usada nas seguintes classes no arquivo CSS3:
+
+* .form
+* html, body
+
+Foi definido com "padding" e "padding-top" como mostra a seguir:
+
+```
+html, body{
+    padding: 0;
+}
+```
+```
+.form{
+    padding: 40px;
+    padding-top: 0;
+}
+```
+
+A altura e largura da área do conteúdo de um elemento foi definida com:
+
+* height - Determina a altura da área do conteúdo de um elemento.
+* width - Determina a largura da área de conteúdo de um elemento.
+
+Isto foi mostrado no arquivo README e utilizado, por exemplo, na classe "container" em CSS3, como será visto a seguir:
+
+```
+.container{
+    width: 100%;
+    height: 100%;
+}
+```
 
 ## Tecnologias
 

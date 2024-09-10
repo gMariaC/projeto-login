@@ -5,7 +5,7 @@ html, body{
 
 body{
     background-color: rgb(95, 145, 31);
-    display: flex; /*Compotamento do elemento na página*/
+    display: flex; /*Comportamento do elemento na página*/
     font-family: Verdana;
 }
 
@@ -26,6 +26,7 @@ body{
     color: rgb(20, 90, 20);
     box-shadow: 0 0 20px black;
 }
+
 h3{
     text-align: center;
 }
